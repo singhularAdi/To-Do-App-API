@@ -1,16 +1,16 @@
 const {SHA256} = require('crypto-js');
 const jwt = require('jsonwebtoken');
 
-var data = {
-    id: 10
-};
+// var data = {
+//     id: 10
+// };
 
-var token = jwt.sign(data, '123abc')
-console.log(token)
+// var token = jwt.sign(data, '123abc')
+// console.log(token)
 
 
-var decoded =  jwt.verify(token,'123abc');
-console.log(decoded)
+// var decoded =  jwt.verify(token,'123abc');
+// console.log(decoded)
 // var message = 'jello world';
 // var hash = SHA256(message).toString()
 
